@@ -37,6 +37,45 @@
     </div>
 
 
+
+    <!-- Container per il gioco Pari o Dispari -->
+    <div class="container mt-5">
+
+        <!-- Titolo -->
+        <h1>Pari o Dispari</h1>
+
+        <!-- Selezione della scelta dell'utente (pari o dispari) -->
+        <div class="mb-3">
+            <label for="sceltaUtente" class="form-label">Scegli pari o dispari:</label>
+            
+            <!-- Menu a tendina per la scelta -->
+            <select class="form-select" id="sceltaUtente">
+                
+                <!-- Opzione per "pari" -->
+                <option value="pari">Pari</option>
+                
+                <!-- Opzione per "dispari" -->
+                <option value="dispari">Dispari</option>
+            </select>
+        </div>
+        
+        <!-- Inserimento del numero da 1 a 5 da parte dell'utente -->
+        <div class="mb-3">
+            <label for="numeroUtente" class="form-label">Inserisci un numero da 1 a 5:</label>
+            
+            <!-- Campo di input per il numero -->
+            <input type="number" class="form-control" id="numeroUtente" min="1" max="5">
+        </div>
+        
+        <!-- Bottone per avviare il gioco -->
+        <button class="btn btn-primary" id="verificaPariDispariBtn">Verifica</button>
+        
+        <!-- Risultato del gioco -->
+        <p id="risultatoPariDispari" class="mt-3"></p>
+    </div>
+
+
+
     <!-- Javascript -->
     <script src="script.js"></script>
 </body>
