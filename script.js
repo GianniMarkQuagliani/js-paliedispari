@@ -1,5 +1,5 @@
 // Associo event listener al pulsante di verifica per la parola palindroma
-document.getElementById("verificaPalindromaBtn").addEventListener("click", verificaPalindromaBtn);
+document.getElementById("verificaPalindromaBtn").addEventListener("click", verificaPalindroma);
 // Da ELIMINARE
 console.log(document.getElementById("verificaPalindromaBtn"));
 
